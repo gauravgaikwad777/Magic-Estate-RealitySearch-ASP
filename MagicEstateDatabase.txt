@@ -1,0 +1,5 @@
+Create table logintable (UserID varchar(50) COLLATE Latin1_General_CS_AS Primary key, Password varchar(50) COLLATE Latin1_General_CS_AS); 
+
+Create table property (property_id int IDENTITY(1,1) Primary key, Title varchar(50), Description varchar(200), Cost int , Size int , Summary varchar(200), catergory varchar(50), ImagePath nvarchar(max), Address nvarchar(256), owner_email varchar(max), visit_count int);
+
+Create table usertable (FirstName varchar(50), LastName varchar(50), UserID varchar(50) COLLATE Latin1_General_CS_AS Primary key, Password varchar(50) COLLATE Latin1_General_CS_AS, ConfirmPassword varchar(50) COLLATE Latin1_General_CS_AS, Email varchar(50), SecurityQuestion varchar(50), SecurityAnswer varchar(50), Category varchar(200), CostMin int, CostMax int, SizeMax int, SizeMin int, Subscribe bit);

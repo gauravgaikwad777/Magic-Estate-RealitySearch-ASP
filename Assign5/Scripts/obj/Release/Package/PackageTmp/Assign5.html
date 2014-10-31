@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html>
+<title>Assign#6 by 15 and 16</title>
+<head><div class="content"><center><strong><font FACE="Times New Roman" SIZE="+5" COLOR="#000000">Assignment #6</font></center> </div>
+
+<meta name="title" content="Web development Assignment 1">
+<meta name="description" content="First Personal Blog of Gaurav Gaikwad">
+<meta name="Author" content="Gaurav Gaikwad">
+<meta name="keywords" content="Personal Blog, Gaurav, Soccer, ISU, C#">
+
+<link rel="stylesheet" type="text/css" href="Assig1Style.css" />
+</head>
+<body link="skyblue"  vlink="white" alink="#F5A9A9">
+<div class="wrapper">
+<HR WIDTH="50%" COLOR="#6699FF" SIZE="3"></HR>
+<center><h1 id="Top">GAURAV GAIKWAD and MOHIT JAIN</h1></center>
+<table CELLSPACING="2" WIDTH="100%"><tr><td><div align="left"><font size="3">All the programs are in their respective project folder.</font>
+<td><div align="right"><font size="-3">Please avoid use of Internet Explorer.</font></div></div></tr></table>
+<HR WIDTH="80%" COLOR="#6699FF" SIZE="4"></HR>
+<a href='#Ref'>To References</a><br>
+
+<div class="content"><center><h1 id="PartA">Part 4<br> Stock Quote Screenshots </h1></center></div>
+
+
+<h2>CLIENT CODE</h2><br/>
+<pre><xmp>
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Xml;
+namespace Assign5
+{
+    public partial class StockQuote : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            UpdateStock();
+            Timer1.Enabled = true;
+            MultiView1.SetActiveView(View2);
+        }
+        protected void Timer1_Tick(object sender, EventArgs e)
+        {
+            UpdateStock();
+        }
+
+        private void UpdateStock()
+        {
+            LocalService.WSStockQuoteSoapClient objStock = new LocalService.WSStockQuoteSoapClient();
+            String sValue = objStock.HelloWorld(Yelpid.Text);
+
+            XmlDocument xmlDoc = new XmlDocument();
+            xmlDoc.LoadXml(sValue);
+            XmlNode last = xmlDoc.SelectSingleNode(@"/StockQuotes/Stock/Last");
+
+            XmlNodeReader reader = new XmlNodeReader(last);
+            string sVal = reader.ReadElementString();
+            last = xmlDoc.SelectSingleNode(@"/StockQuotes/Stock/Name");
+            reader = new XmlNodeReader(last);
+            string sName = reader.ReadElementString();
+            Label1.Text = "<table>";
+            Label1.Text += "<tr><td>Stock Name</td><td>" + xmlDoc.SelectSingleNode(@"/StockQuotes/Stock/Name").InnerText + "</td></tr>";
+            Label1.Text += "<tr><td>Symbol</td><td>" + xmlDoc.SelectSingleNode(@"/StockQuotes/Stock/Symbol").InnerText + "</td></tr>";
+            Label1.Text += "<tr><td>Value</td><td>" + xmlDoc.SelectSingleNode(@"/StockQuotes/Stock/Last").InnerText + "</td></tr>";
+            Label1.Text += "<tr><td>Date Time</td><td>" + xmlDoc.SelectSingleNode(@"/StockQuotes/Stock/Date").InnerText + " " + 
+			xmlDoc.SelectSingleNode(@"/StockQuotes/Stock/Time").InnerText + "</td></tr>";
+            Label1.Text += "<tr><td>High :" + xmlDoc.SelectSingleNode(@"/StockQuotes/Stock/High").InnerText + "</td><td style='
+			padding-left:30px;'>Low:" + xmlDoc.SelectSingleNode(@"/StockQuotes/Stock/Low").InnerText + "</td></tr>";
+            Label1.Text += "</table>";
+        }
+        protected void lnkBack_Click(object sender, EventArgs e)
+        {
+            Timer1.Enabled = false;
+            Yelpid.Text = "";
+            Yelpid.Focus();
+            MultiView1.SetActiveView(View1);
+        }
+    }
+}
+</xmp></pre>
+<h2>WS CODE</h2>
+<pre><xmp>
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Services;
+using System.Xml;
+
+/// <summary>
+/// Summary description for WSStockQuote
+/// </summary>
+[WebService(Namespace = "http://tempuri.org/")]
+[WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
+// To allow this Web Service to be called from script, using ASP.NET AJAX, uncomment the following line. 
+// [System.Web.Script.Services.ScriptService]
+public class WSStockQuote : System.Web.Services.WebService {
+
+    public WSStockQuote () {
+        //Uncomment the following line if using designed components 
+        //InitializeComponent(); 
+    }
+
+    [WebMethod]
+    public string HelloWorld(string cName)
+    {
+        ServiceReference1.StockQuoteSoapClient objStock = new ServiceReference1.StockQuoteSoapClient();
+        string sValue = objStock.GetQuote(cName);
+        return sValue;
+    }
+}
+</xmp>
+</pre>
+
+    
+<br>
+<br><br>
+
+<HR WIDTH="80%" COLOR="#6699FF" SIZE="4"></HR>
+DOW 30 stock retrieval REALTIME<br/>
+<TABLE>
+<TR>
+<TD>
+<img src=".\images\DOW30_GE.JPG">
+</TD>
+<TD>
+<img src=".\images\stock.JPG">
+</TD>
+</TR></TABLE>
+
+<hr color="black"></hr>
+
+<h2 id="Ref">References</h2>
+<UL>
+<LI>http://www.asp.net/
+<LI>http://www.w3schools.com/aspnet/
+<LI>http://stackoverflow.com/
+<LI>YouTubeCommentsWSClientApp application
+</UL>
+</br>
+<p>
+<a href="mailto:ggaikwa@ilstu.edu">Send me an e-mail </a>
+and let me know all your queries.
+</p>
+<a href='#Top'>Top</a><br>
+</div>
+</body>
+</html>

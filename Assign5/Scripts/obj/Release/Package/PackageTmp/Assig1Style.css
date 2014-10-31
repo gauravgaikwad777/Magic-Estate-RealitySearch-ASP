@@ -1,0 +1,40 @@
+    body {
+        color: white;
+        background-color: #242424;
+        font-family: Tahoma;
+    }
+
+    h1 {
+        font-family: Tahoma;
+        color: white;
+        font-size: 55px;
+    }
+	h2
+{
+strong
+}
+h3{
+font-style:italic;
+}
+
+    .content {
+        background: #8DCB89;
+        margin: 15px;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        min-height: 30px;
+        border: 0.5px solid #5b5bff;
+    }
+
+    .wrapper
+        {
+    width: auto;
+	margin:auto;
+	padding-left: 15px;
+	padding-right: 15px;
+    background-color:#4e4b4b ;
+	text-align:left;
+	
+        } 

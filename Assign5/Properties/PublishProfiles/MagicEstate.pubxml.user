@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Code/WSStockQuote.cs">
+      <publishTime>11/11/2013 23:25:22</publishTime>
+    </File>
+    <File Include="App_WebReferences/LocalService/configuration.svcinfo">
+      <publishTime>11/06/2013 15:11:25</publishTime>
+    </File>
+    <File Include="App_WebReferences/LocalService/configuration91.svcinfo">
+      <publishTime>11/06/2013 15:11:25</publishTime>
+    </File>
+    <File Include="App_WebReferences/LocalService/Reference1.svcmap">
+      <publishTime>11/06/2013 15:11:25</publishTime>
+    </File>
+    <File Include="App_WebReferences/LocalService/WSStockQuote.disco">
+      <publishTime>11/06/2013 15:11:25</publishTime>
+    </File>
+    <File Include="App_WebReferences/LocalService/WSStockQuote.wsdl">
+      <publishTime>11/06/2013 15:11:25</publishTime>
+    </File>
+    <File Include="App_WebReferences/ServiceReference1/configuration.svcinfo">
+      <publishTime>11/06/2013 15:11:25</publishTime>
+    </File>
+    <File Include="App_WebReferences/ServiceReference1/configuration91.svcinfo">
+      <publishTime>11/06/2013 15:11:25</publishTime>
+    </File>
+    <File Include="App_WebReferences/ServiceReference1/Reference.svcmap">
+      <publishTime>11/06/2013 15:11:25</publishTime>
+    </File>
+    <File Include="App_WebReferences/ServiceReference1/stockquote.wsdl">
+      <publishTime>11/06/2013 15:11:25</publishTime>
+    </File>
+    <File Include="bin/Assign5.dll">
+      <publishTime>12/12/2013 04:05:01</publishTime>
+    </File>
+    <File Include="chechkout.aspx">
+      <publishTime>12/11/2013 16:16:20</publishTime>
+    </File>
+    <File Include="Confirmation.aspx">
+      <publishTime>11/25/2013 17:37:12</publishTime>
+    </File>
+    <File Include="ContactUs.aspx">
+      <publishTime>12/04/2013 12:11:35</publishTime>
+    </File>
+    <File Include="Content/css/bootstrap-theme.css">
+      <publishTime>11/16/2013 01:51:19</publishTime>
+    </File>
+    <File Include="Content/css/bootstrap-theme.min.css">
+      <publishTime>11/16/2013 01:51:19</publishTime>
+    </File>
+    <File Include="Content/css/bootstrap.css">
+      <publishTime>11/17/2013 19:38:06</publishTime>
+    </File>
+    <File Include="Content/css/bootstrap.min.css">
+      <publishTime>11/16/2013 01:51:19</publishTime>
+    </File>
+    <File Include="Content/css/magic.css">
+      <publishTime>12/12/2013 02:58:37</publishTime>
+    </File>
+    <File Include="Content/css/requestform.css">
+      <publishTime>11/23/2013 23:00:09</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>12/12/2013 02:22:54</publishTime>
+    </File>
+    <File Include="DeleteProperty.aspx">
+      <publishTime>12/04/2013 01:12:50</publishTime>
+    </File>
+    <File Include="EditProfile.aspx">
+      <publishTime>11/26/2013 20:29:29</publishTime>
+    </File>
+    <File Include="EWelcome.aspx">
+      <publishTime>11/25/2013 16:05:52</publishTime>
+    </File>
+    <File Include="forgotpass.aspx">
+      <publishTime>12/04/2013 15:00:07</publishTime>
+    </File>
+    <File Include="images/addtocart.JPG">
+      <publishTime>11/14/2013 22:13:43</publishTime>
+    </File>
+    <File Include="images/ban1.jpg">
+      <publishTime>12/11/2013 21:52:16</publishTime>
+    </File>
+    <File Include="images/BGimg.png">
+      <publishTime>11/21/2013 18:44:43</publishTime>
+    </File>
+    <File Include="images/BGimg1.png">
+      <publishTime>11/21/2013 18:52:52</publishTime>
+    </File>
+    <File Include="images/DOW30_GE.JPG">
+      <publishTime>11/09/2013 19:43:28</publishTime>
+    </File>
+    <File Include="images/farm.jpg">
+      <publishTime>12/11/2013 21:53:22</publishTime>
+    </File>
+    <File Include="images/Franklin.JPG">
+      <publishTime>11/18/2013 15:40:41</publishTime>
+    </File>
+    <File Include="images/isulogo.jpg">
+      <publishTime>10/19/2013 17:55:13</publishTime>
+    </File>
+    <File Include="images/ou.jpg">
+      <publishTime>11/24/2013 13:17:48</publishTime>
+    </File>
+    <File Include="images/plum.jpg">
+      <publishTime>11/24/2013 13:21:44</publishTime>
+    </File>
+    <File Include="images/prop.jpg">
+      <publishTime>12/11/2013 21:52:39</publishTime>
+    </File>
+    <File Include="images/Rain.gif">
+      <publishTime>11/09/2013 17:11:54</publishTime>
+    </File>
+    <File Include="images/sf.jpg">
+      <publishTime>11/24/2013 13:19:10</publishTime>
+    </File>
+    <File Include="images/shop1.jpg">
+      <publishTime>11/10/2013 01:30:52</publishTime>
+    </File>
+    <File Include="images/signature.jpg">
+      <publishTime>11/24/2013 13:26:32</publishTime>
+    </File>
+    <File Include="images/slider4.jpg">
+      <publishTime>11/16/2013 19:03:32</publishTime>
+    </File>
+    <File Include="images/stock.JPG">
+      <publishTime>11/10/2013 00:39:30</publishTime>
+    </File>
+    <File Include="images/Technology.jpg">
+      <publishTime>11/09/2013 17:15:28</publishTime>
+    </File>
+    <File Include="images/watterson.jpg">
+      <publishTime>12/11/2013 15:46:31</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>11/26/2013 14:37:05</publishTime>
+    </File>
+    <File Include="MagicEstate.Master">
+      <publishTime>12/10/2013 21:40:34</publishTime>
+    </File>
+    <File Include="PasswordRecovery.txt">
+      <publishTime>11/24/2013 15:23:00</publishTime>
+    </File>
+    <File Include="postad.aspx">
+      <publishTime>11/27/2013 23:05:36</publishTime>
+    </File>
+    <File Include="propertyinfo.aspx">
+      <publishTime>12/11/2013 22:21:08</publishTime>
+    </File>
+    <File Include="Registered.aspx">
+      <publishTime>11/25/2013 16:05:52</publishTime>
+    </File>
+    <File Include="Report.aspx">
+      <publishTime>12/03/2013 23:47:44</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>11/16/2013 02:53:28</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>11/16/2013 01:50:44</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.0.3.min.js">
+      <publishTime>11/16/2013 01:49:16</publishTime>
+    </File>
+    <File Include="searchad.aspx">
+      <publishTime>12/11/2013 15:10:19</publishTime>
+    </File>
+    <File Include="Service References/LocalService/Assign5.LocalService.HelloWorldResponse.datasource">
+      <publishTime>11/06/2013 15:34:16</publishTime>
+    </File>
+    <File Include="Service References/LocalService/configuration.svcinfo">
+      <publishTime>11/06/2013 15:34:15</publishTime>
+    </File>
+    <File Include="Service References/LocalService/configuration91.svcinfo">
+      <publishTime>11/06/2013 15:34:15</publishTime>
+    </File>
+    <File Include="Service References/LocalService/Reference.svcmap">
+      <publishTime>11/06/2013 15:34:15</publishTime>
+    </File>
+    <File Include="Service References/LocalService/WSStockQuote.disco">
+      <publishTime>11/06/2013 15:34:15</publishTime>
+    </File>
+    <File Include="Service References/LocalService/WSStockQuote.wsdl">
+      <publishTime>11/06/2013 15:34:15</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference1/configuration.svcinfo">
+      <publishTime>11/06/2013 16:00:31</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference1/configuration91.svcinfo">
+      <publishTime>11/06/2013 16:00:31</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference1/Reference.svcmap">
+      <publishTime>11/06/2013 16:00:31</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference1/stockquote.disco">
+      <publishTime>11/06/2013 16:00:31</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference1/stockquote.wsdl">
+      <publishTime>11/06/2013 16:00:31</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference2/Assign5.ServiceReference2.StockQuote.datasource">
+      <publishTime>11/06/2013 16:09:36</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference2/configuration.svcinfo">
+      <publishTime>11/06/2013 16:09:35</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference2/configuration91.svcinfo">
+      <publishTime>11/06/2013 16:09:35</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference2/Reference.svcmap">
+      <publishTime>11/06/2013 16:09:35</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference2/StockQuoteService.wsdl">
+      <publishTime>11/06/2013 16:09:35</publishTime>
+    </File>
+    <File Include="Shipped.aspx">
+      <publishTime>12/01/2013 23:56:19</publishTime>
+    </File>
+    <File Include="shoppingcart.aspx">
+      <publishTime>12/11/2013 15:50:43</publishTime>
+    </File>
+    <File Include="SignUp.aspx">
+      <publishTime>12/12/2013 03:57:33</publishTime>
+    </File>
+    <File Include="StockQuote.aspx">
+      <publishTime>11/25/2013 16:05:52</publishTime>
+    </File>
+    <File Include="Unsubscribe.aspx">
+      <publishTime>11/28/2013 01:29:49</publishTime>
+    </File>
+    <File Include="UpdateProperty.aspx">
+      <publishTime>11/27/2013 18:56:35</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/12/2013 04:05:02</publishTime>
+    </File>
+    <File Include="WSStockQuote.asmx">
+      <publishTime>11/10/2013 00:46:34</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

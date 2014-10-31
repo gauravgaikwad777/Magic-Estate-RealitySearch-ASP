@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{95C4B7A0-C8F0-4B8A-A701-93B1A7559385}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Assign5</RootNamespace>
+    <AssemblyName>Assign5</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Assign5.dll" />
+    <Content Include="bin\Assign5.pdb" />
+    <Content Include="chechkout.aspx" />
+    <Content Include="Confirmation.aspx" />
+    <Content Include="ContactUs.aspx" />
+    <Content Include="Content\css\bootstrap-theme.css" />
+    <Content Include="Content\css\bootstrap-theme.min.css" />
+    <Content Include="Content\css\bootstrap.css" />
+    <Content Include="Content\css\bootstrap.min.css" />
+    <Content Include="Content\css\magic.css" />
+    <Content Include="Content\css\requestform.css" />
+    <Content Include="DeleteProperty.aspx" />
+    <Content Include="EditProfile.aspx" />
+    <Content Include="EWelcome.aspx" />
+    <Content Include="forgotpass.aspx" />
+    <Content Include="images\addtocart.JPG" />
+    <Content Include="images\agri.jpg" />
+    <Content Include="images\ban1.jpg" />
+    <Content Include="images\BGimg.png" />
+    <Content Include="images\BGimg1.png" />
+    <Content Include="images\DOW30_GE.JPG" />
+    <Content Include="images\farm.jpg" />
+    <Content Include="images\Franklin.JPG" />
+    <Content Include="images\icon.jpg" />
+    <Content Include="images\icon.png" />
+    <Content Include="images\isulogo.jpg" />
+    <Content Include="images\ou.jpg" />
+    <Content Include="images\plum.jpg" />
+    <Content Include="images\prop.jpg" />
+    <Content Include="images\Rain.gif" />
+    <Content Include="images\sf.jpg" />
+    <Content Include="images\shop1.jpg" />
+    <Content Include="images\signature.jpg" />
+    <Content Include="images\slider4.jpg" />
+    <Content Include="images\stock.JPG" />
+    <Content Include="images\Technology.jpg" />
+    <Content Include="images\watterson.jpg" />
+    <Content Include="Login.aspx" />
+    <Content Include="postad.aspx" />
+    <Content Include="PrivacyPolicy.aspx" />
+    <Content Include="propertyinfo.aspx" />
+    <Content Include="Registered.aspx" />
+    <Content Include="Report.aspx" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-2.0.3.min.js" />
+    <Content Include="searchad.aspx" />
+    <Content Include="Shipped.aspx" />
+    <Content Include="shoppingcart.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Unsubscribe.aspx" />
+    <Content Include="UpdateProperty.aspx" />
+    <Content Include="SignUp.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="chechkout.aspx.cs">
+      <DependentUpon>chechkout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="chechkout.aspx.designer.cs">
+      <DependentUpon>chechkout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteProperty.aspx.cs">
+      <DependentUpon>DeleteProperty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteProperty.aspx.designer.cs">
+      <DependentUpon>DeleteProperty.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="forgotpass.aspx.cs">
+      <DependentUpon>forgotpass.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="forgotpass.aspx.designer.cs">
+      <DependentUpon>forgotpass.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MagicEstate.Master.cs">
+      <DependentUpon>MagicEstate.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MagicEstate.Master.designer.cs">
+      <DependentUpon>MagicEstate.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PrivacyPolicy.aspx.cs">
+      <DependentUpon>PrivacyPolicy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PrivacyPolicy.aspx.designer.cs">
+      <DependentUpon>PrivacyPolicy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="propertyinfo.aspx.cs">
+      <DependentUpon>propertyinfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="propertyinfo.aspx.designer.cs">
+      <DependentUpon>propertyinfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report.aspx.cs">
+      <DependentUpon>Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Report.aspx.designer.cs">
+      <DependentUpon>Report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shipped.aspx.cs">
+      <DependentUpon>Shipped.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shipped.aspx.designer.cs">
+      <DependentUpon>Shipped.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="shoppingcart.aspx.cs">
+      <DependentUpon>shoppingcart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="shoppingcart.aspx.designer.cs">
+      <DependentUpon>shoppingcart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Unsubscribe.aspx.cs">
+      <DependentUpon>Unsubscribe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Unsubscribe.aspx.designer.cs">
+      <DependentUpon>Unsubscribe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateProperty.aspx.cs">
+      <DependentUpon>UpdateProperty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateProperty.aspx.designer.cs">
+      <DependentUpon>UpdateProperty.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Confirmation.aspx.cs">
+      <DependentUpon>Confirmation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Confirmation.aspx.designer.cs">
+      <DependentUpon>Confirmation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditProfile.aspx.cs">
+      <DependentUpon>EditProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditProfile.aspx.designer.cs">
+      <DependentUpon>EditProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EWelcome.aspx.cs">
+      <DependentUpon>EWelcome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EWelcome.aspx.designer.cs">
+      <DependentUpon>EWelcome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="postad.aspx.cs">
+      <DependentUpon>postad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="postad.aspx.designer.cs">
+      <DependentUpon>postad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registered.aspx.cs">
+      <DependentUpon>Registered.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registered.aspx.designer.cs">
+      <DependentUpon>Registered.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="searchad.aspx.cs">
+      <DependentUpon>searchad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="searchad.aspx.designer.cs">
+      <DependentUpon>searchad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignUp.aspx.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignUp.aspx.designer.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MagicEstate.Master" />
+    <None Include="Properties\PublishProfiles\magicestate - FTP %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\magicestate - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\magicestate - Web Deploy %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\magicestate - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\MagicEstate.pubxml" />
+    <None Include="Properties\PublishProfiles\MohitGApp6.pubxml" />
+    <None Include="Properties\PublishProfiles\MohitGaurav.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Code\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:58285/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

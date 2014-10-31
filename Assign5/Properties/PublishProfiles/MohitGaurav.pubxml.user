@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Assig1Style.css">
+      <publishTime>10/23/2013 20:15:20</publishTime>
+    </File>
+    <File Include="Assign5.html">
+      <publishTime>10/23/2013 20:55:36</publishTime>
+    </File>
+    <File Include="bin/Assign5.dll">
+      <publishTime>10/23/2013 21:24:10</publishTime>
+    </File>
+    <File Include="Confirmation.aspx">
+      <publishTime>10/23/2013 21:06:21</publishTime>
+    </File>
+    <File Include="cookie.aspx">
+      <publishTime>10/23/2013 21:05:51</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>10/23/2013 21:21:23</publishTime>
+    </File>
+    <File Include="EditProfile.aspx">
+      <publishTime>10/23/2013 21:07:18</publishTime>
+    </File>
+    <File Include="EWelcome.aspx">
+      <publishTime>10/23/2013 21:07:26</publishTime>
+    </File>
+    <File Include="images/A1.JPG">
+      <publishTime>10/23/2013 17:59:48</publishTime>
+    </File>
+    <File Include="images/A2.JPG">
+      <publishTime>10/23/2013 18:09:03</publishTime>
+    </File>
+    <File Include="images/A3.JPG">
+      <publishTime>10/23/2013 18:08:36</publishTime>
+    </File>
+    <File Include="images/A4.JPG">
+      <publishTime>10/23/2013 19:37:22</publishTime>
+    </File>
+    <File Include="images/B1.JPG">
+      <publishTime>10/23/2013 18:13:54</publishTime>
+    </File>
+    <File Include="images/B2.JPG">
+      <publishTime>10/23/2013 18:14:33</publishTime>
+    </File>
+    <File Include="images/B3.JPG">
+      <publishTime>10/23/2013 18:21:45</publishTime>
+    </File>
+    <File Include="images/B4.JPG">
+      <publishTime>10/23/2013 19:39:41</publishTime>
+    </File>
+    <File Include="images/B5.JPG">
+      <publishTime>10/23/2013 19:44:29</publishTime>
+    </File>
+    <File Include="images/B6.JPG">
+      <publishTime>10/23/2013 20:03:06</publishTime>
+    </File>
+    <File Include="images/C1.JPG">
+      <publishTime>10/23/2013 20:09:36</publishTime>
+    </File>
+    <File Include="images/C2.JPG">
+      <publishTime>10/23/2013 20:09:00</publishTime>
+    </File>
+    <File Include="images/D1.JPG">
+      <publishTime>10/23/2013 20:10:38</publishTime>
+    </File>
+    <File Include="images/D2.JPG">
+      <publishTime>10/23/2013 20:11:16</publishTime>
+    </File>
+    <File Include="images/D3.JPG">
+      <publishTime>10/23/2013 20:12:08</publishTime>
+    </File>
+    <File Include="images/D4.JPG">
+      <publishTime>10/23/2013 20:12:29</publishTime>
+    </File>
+    <File Include="images/D5.JPG">
+      <publishTime>10/23/2013 20:13:25</publishTime>
+    </File>
+    <File Include="images/E.JPG">
+      <publishTime>10/23/2013 19:52:46</publishTime>
+    </File>
+    <File Include="images/isulogo.jpg">
+      <publishTime>10/19/2013 17:55:13</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>10/23/2013 21:07:44</publishTime>
+    </File>
+    <File Include="Registered.aspx">
+      <publishTime>10/21/2013 22:20:05</publishTime>
+    </File>
+    <File Include="SignUp.aspx">
+      <publishTime>10/23/2013 21:09:38</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/23/2013 21:24:11</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

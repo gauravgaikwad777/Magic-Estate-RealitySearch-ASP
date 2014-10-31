@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Code/WSStockQuote.cs">
+      <publishTime>11/10/2013 02:10:13</publishTime>
+    </File>
+    <File Include="App_WebReferences/LocalService/configuration.svcinfo">
+      <publishTime>11/06/2013 15:11:25</publishTime>
+    </File>
+    <File Include="App_WebReferences/LocalService/configuration91.svcinfo">
+      <publishTime>11/06/2013 15:11:25</publishTime>
+    </File>
+    <File Include="App_WebReferences/LocalService/Reference1.svcmap">
+      <publishTime>11/06/2013 15:11:25</publishTime>
+    </File>
+    <File Include="App_WebReferences/LocalService/WSStockQuote.disco">
+      <publishTime>11/06/2013 15:11:25</publishTime>
+    </File>
+    <File Include="App_WebReferences/LocalService/WSStockQuote.wsdl">
+      <publishTime>11/06/2013 15:11:25</publishTime>
+    </File>
+    <File Include="App_WebReferences/ServiceReference1/configuration.svcinfo">
+      <publishTime>11/06/2013 15:11:25</publishTime>
+    </File>
+    <File Include="App_WebReferences/ServiceReference1/configuration91.svcinfo">
+      <publishTime>11/06/2013 15:11:25</publishTime>
+    </File>
+    <File Include="App_WebReferences/ServiceReference1/Reference.svcmap">
+      <publishTime>11/06/2013 15:11:25</publishTime>
+    </File>
+    <File Include="App_WebReferences/ServiceReference1/stockquote.wsdl">
+      <publishTime>11/06/2013 15:11:25</publishTime>
+    </File>
+    <File Include="Assig1Style.css">
+      <publishTime>10/23/2013 20:15:20</publishTime>
+    </File>
+    <File Include="Assign5.html">
+      <publishTime>11/10/2013 01:05:04</publishTime>
+    </File>
+    <File Include="bin/Assign5.dll">
+      <publishTime>11/10/2013 01:47:42</publishTime>
+    </File>
+    <File Include="Confirmation.aspx">
+      <publishTime>10/28/2013 19:20:08</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>11/10/2013 01:48:40</publishTime>
+    </File>
+    <File Include="EditProfile.aspx">
+      <publishTime>10/23/2013 21:07:18</publishTime>
+    </File>
+    <File Include="EWelcome.aspx">
+      <publishTime>10/23/2013 21:07:26</publishTime>
+    </File>
+    <File Include="images/DOW30_GE.JPG">
+      <publishTime>11/09/2013 19:43:28</publishTime>
+    </File>
+    <File Include="images/farm.jpg">
+      <publishTime>11/09/2013 23:48:27</publishTime>
+    </File>
+    <File Include="images/isulogo.jpg">
+      <publishTime>10/19/2013 17:55:13</publishTime>
+    </File>
+    <File Include="images/prop.jpg">
+      <publishTime>11/09/2013 23:37:59</publishTime>
+    </File>
+    <File Include="images/Rain.gif">
+      <publishTime>11/09/2013 17:11:54</publishTime>
+    </File>
+    <File Include="images/shop1.jpg">
+      <publishTime>11/10/2013 01:30:52</publishTime>
+    </File>
+    <File Include="images/stock.JPG">
+      <publishTime>11/10/2013 00:39:30</publishTime>
+    </File>
+    <File Include="images/Technology.jpg">
+      <publishTime>11/09/2013 17:15:28</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>11/09/2013 23:31:55</publishTime>
+    </File>
+    <File Include="postad.aspx">
+      <publishTime>11/09/2013 22:18:30</publishTime>
+    </File>
+    <File Include="Registered.aspx">
+      <publishTime>10/21/2013 22:20:05</publishTime>
+    </File>
+    <File Include="searchad.aspx">
+      <publishTime>11/10/2013 01:16:36</publishTime>
+    </File>
+    <File Include="Service References/LocalService/Assign5.LocalService.HelloWorldResponse.datasource">
+      <publishTime>11/06/2013 15:34:16</publishTime>
+    </File>
+    <File Include="Service References/LocalService/configuration.svcinfo">
+      <publishTime>11/06/2013 15:34:15</publishTime>
+    </File>
+    <File Include="Service References/LocalService/configuration91.svcinfo">
+      <publishTime>11/06/2013 15:34:15</publishTime>
+    </File>
+    <File Include="Service References/LocalService/Reference.svcmap">
+      <publishTime>11/06/2013 15:34:15</publishTime>
+    </File>
+    <File Include="Service References/LocalService/WSStockQuote.disco">
+      <publishTime>11/06/2013 15:34:15</publishTime>
+    </File>
+    <File Include="Service References/LocalService/WSStockQuote.wsdl">
+      <publishTime>11/06/2013 15:34:15</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference1/configuration.svcinfo">
+      <publishTime>11/06/2013 16:00:31</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference1/configuration91.svcinfo">
+      <publishTime>11/06/2013 16:00:31</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference1/Reference.svcmap">
+      <publishTime>11/06/2013 16:00:31</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference1/stockquote.disco">
+      <publishTime>11/06/2013 16:00:31</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference1/stockquote.wsdl">
+      <publishTime>11/06/2013 16:00:31</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference2/Assign5.ServiceReference2.StockQuote.datasource">
+      <publishTime>11/06/2013 16:09:36</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference2/configuration.svcinfo">
+      <publishTime>11/06/2013 16:09:35</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference2/configuration91.svcinfo">
+      <publishTime>11/06/2013 16:09:35</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference2/Reference.svcmap">
+      <publishTime>11/06/2013 16:09:35</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference2/StockQuoteService.wsdl">
+      <publishTime>11/06/2013 16:09:35</publishTime>
+    </File>
+    <File Include="SignUp.aspx">
+      <publishTime>11/09/2013 22:27:50</publishTime>
+    </File>
+    <File Include="StockQuote.aspx">
+      <publishTime>11/10/2013 01:41:19</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/10/2013 11:30:58</publishTime>
+    </File>
+    <File Include="WSStockQuote.asmx">
+      <publishTime>11/10/2013 00:46:34</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

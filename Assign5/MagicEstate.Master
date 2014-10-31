@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MagicEstate.master.cs" Inherits="Assign5.MagicEstate" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head runat="server">
+    <title>Welcome Navigation</title>
+    <meta charset="utf-8"/>
+    <link href="Content/css/magic.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Norican" />
+    <asp:ContentPlaceHolder ID="cp_Head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body >  <%--class="page1"--%>
+
+    <div > <%--id="nav_container"--%>
+        <div id="navigation">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="Default.aspx"><h1 style="font-size: 64px">
+            MAGIC ESTATE</h1></a>
+            <h1 style="font-size: 24px">your property destination..</h1>
+            <nav>
+
+                <ul class="clearfix">
+
+                     <li><a href="Default.aspx">Home</a></li>
+                    <li><a href="searchad.aspx">Search</a></li>
+                    <li><a href="Report.aspx">Popular</a></li>
+                    <li><a href="Login.aspx">Sign In</a></li>
+                    <li><a href="SignUp.aspx">Sign Up</a></li>
+                    <li><a href="ContactUs.aspx">Contact</a></li>
+
+
+                </ul>
+
+            </nav>
+
+        </div>
+        <!-- end navigation -->
+
+    </div>
+
+
+
+
+    <div class="container">
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+
+
+    <br />
+    <br />
+    <br />
+   
+       <footer>
+            <a href="Default.aspx" style="color: white;">Back to home</a>
+            © 2013 Company, Inc. · <a href="PrivacyPolicy.aspx">Privacy and Terms</a>
+        </footer>
+   
+</body>
+</html>

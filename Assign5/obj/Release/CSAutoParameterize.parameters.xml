@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="it3680116Fall13_Assignment6ConnectionString-Web.config Connection String" description="it3680116Fall13_Assignment6ConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=itksqlexp8;Initial Catalog=it3680116Fall13_Assignment6;Integrated Security=True;Pooling=False" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\mohitjain0890\\Desktop\\PROJECT\ -\ Azure\\Assign5\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='it3680116Fall13_Assignment6ConnectionString']/@connectionString" />
+  </parameter>
+</parameters>
